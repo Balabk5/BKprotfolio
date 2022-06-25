@@ -1,0 +1,83 @@
+.main-container {
+    display: flex;
+}
+
+.main-item-1 {
+    height: 93vh;
+    width: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #0a192f;
+}
+
+.main-item-2 {
+    height: 93vh;
+    width: 95%;
+    background-color: #0a192f;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.icon-linkedin,
+.icon-github,
+.icon-twitter,
+.icon-insta {
+    height: 3rem;
+    width: 3rem;
+    margin-top: 3rem;
+    margin-left: .5rem;
+    border-radius: 50%;
+    background-color: white;
+    transition: .6s;
+}
+
+.main-item-1 i {
+    margin-left: 20%;
+    margin-top: 19%;
+    color: black;
+    transition: .6s;
+}
+
+.main-item-1 i:hover {
+    color: white;
+    transform: translate(0, -8%);
+}
+
+.sml:hover {
+    background-color: #0077b5;
+    transform: translate(0, -10%);
+}
+
+.smg:hover {
+    background-color: #201f1f;
+    transform: translate(0, -10%);
+}
+
+.smt:hover {
+    background-color: #1DA1F2;
+    transform: translate(0, -10%);
+}
+
+.smi:hover {
+    background-color: #E4405F;
+    transform: translate(0, -10%);
+}
+
+.profilepic {
+    height: 50rem;
+    width: auto;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    overflow: hidden;
+}
+
+.profilepic img {
+    height: 40rem;
+    width: auto;
+}
